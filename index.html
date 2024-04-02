@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series' cliqueyness</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        img {
+            max-height: 85vh;
+            max-width: 85%;
+        }
+
+        .text {
+            padding: 20px;
+            text-align: justify;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="cliqueyness-distribution.png" alt="Your Image">
+        <div class="text">
+            <p>This plot show how ’clique-y’ certain series are measured by the characters’ network-modularity. The ’cliqueyness’ distribution is similar for series with high or low imdb-rating, the distribution for mediocre series has smaller variance. One intuitive explaination is that if a series has unconventional value of modularity, than it will be received either better or worse, conventional levels of cliqueyness result in conventional ratings.</p>
+        </div>
+    </div>
+</body>
+</html>
